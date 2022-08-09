@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<FrameLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/player_money_background"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_15"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15   150,000,000"
+        android:textColor="#fdd835"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="14    85,000,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="13   60,000,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12   40,000,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11  30,000,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10  22,000,000"
+        android:textColor="#fdd835"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9   14,000,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8  10,000,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7   6,000,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6   3,000,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5   2,000,000"
+        android:textColor="#fdd835"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4  1,000,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3   600,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2   400,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1  200,000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="5dp" />
+    <TextView
+        android:id="@+id/continues"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiếp tục"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="280dp"
+        />
+</LinearLayout>
+</FrameLayout>
+</layout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WhoWantstoBeaMillionaire</string>
+    <string name="dialog_text">Are you ready to play?</string>
+    <string name="dialog_title">Question</string>
+</resources>

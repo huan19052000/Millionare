@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<FrameLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="@color/black"
+    android:background="@drawable/background_online_blank"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/atp_icon_retry"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"/>
+    <ImageView
+        android:id="@+id/anim_circle"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/atp__bg_circle_anim"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:gravity="center"
+        android:id="@+id/btn_new_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/bg_paly_non_press"
+        android:text="New Game"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/btn_high_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/bg_hight_score_non_press"
+        android:text="High Score"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="490dp"
+        android:layout_gravity="center_horizontal"/>
+</FrameLayout>
+</layout>

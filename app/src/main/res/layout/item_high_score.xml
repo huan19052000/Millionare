@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <import type="android.graphics.Color"/>
+        <variable name="data" type="com.example.whowantstobeamillionaire.model.HighScore"/>
+    </data>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/tv_rank"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:textStyle="bold"
+        android:text="1"
+        android:textSize="20dp"
+        android:textColor="#FFEB3B"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="150dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:text="@{data.name, default = `huan`}"
+        android:textColor="#2f77ac"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="150dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:textColor="#d74f2d"
+        android:text="@{data.money, default =`150,000,000`}"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="@{data.level, default=`15`}"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="@color/purple_500"
+        android:paddingLeft="20dp"/>
+</LinearLayout>
+</layout>
